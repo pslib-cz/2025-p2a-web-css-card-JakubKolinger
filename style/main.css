@@ -25,10 +25,36 @@
         max-width: 21em;
         margin: 1rem; /* without scaling */
         padding: 1em;
+        border: 1px solid #717272;
+        border-radius: 10px;
     }
 }
 
 @layer components {
     /* todo components */
- 
+    .greenA {
+        color: var(--primary);
+    }
+    .nadpis {
+        font-size: 2em;
+        color: var(--secondary);
+        font-weight: 800;
+    }
+    .text {
+        font-size: 1em;
+        margin-bottom: 0;
+    }
+    .undertext {
+        font-size: 0.8em;
+        margin-top: 0;
+    }
+    #green {
+        color: var(--primary);
+        font-weight: 800;
+    }
+    #big-green {
+        color: var(--primary);
+        font-weight: 800;
+        font-size: 1.5em;
+    }
 }
