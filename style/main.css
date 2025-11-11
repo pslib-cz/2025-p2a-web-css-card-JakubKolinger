@@ -39,22 +39,47 @@
         font-size: 2em;
         color: var(--secondary);
         font-weight: 800;
+        margin: 16px 0 8px 0;
     }
     .text {
         font-size: 1em;
-        margin-bottom: 0;
+        margin-bottom: 4px;
+    }
+    .block {
+        margin-bottom: 16px;
     }
     .undertext {
         font-size: 0.8em;
-        margin-top: 0;
+        margin-top: 4px;
+        margin-bottom: 16px;
     }
-    #green {
+    .green {
         color: var(--primary);
         font-weight: 800;
     }
-    #big-green {
+    .big-green {
         color: var(--primary);
         font-weight: 800;
         font-size: 1.5em;
+    }
+    .btn {
+        text-decoration: none;
+        display: block;
+        border-radius: .5rem;
+        padding: 12px 32px;
+        text-align: center;
+    }
+    .btn-primary {
+        background-color: var(--primary);
+        color: white;
+    }
+    .yes {
+        list-style-image: url(./../images/check.svg);
+    }
+    .no {
+        list-style-image: url(./../images/cross.svg);
+    }
+    .sez {
+        margin: 16px 0px 16px;
     }
 }
