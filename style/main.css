@@ -32,18 +32,40 @@
 
 @layer components {
     /* todo components */
+    .card--creative {
+        background-color: #FCE3F1;
+        
+
+    }
     .greenA {
         color: var(--primary);
     }
     .nadpis {
         font-size: 2em;
-        color: var(--secondary);
         font-weight: 800;
         margin: 16px 0 8px 0;
+    }
+    .nadpis-primary {
+        color: var(--primary);
+    }
+    .nadpis-zuzova {
+        color: #E63D8D;
+        text-align: center;
     }
     .text {
         font-size: 1em;
         margin-bottom: 4px;
+    }
+    .text--zuzovy {
+        color: #931880;
+        font-size: 0.8em;
+    }
+    .text-center {
+        text-align: center;
+    }
+    .text--big {
+        font-size: 1.5em;
+        font-weight: 800;
     }
     .block {
         margin-bottom: 16px;
@@ -73,13 +95,40 @@
         background-color: var(--primary);
         color: white;
     }
+    .btn--ruzovy {
+        background-color: #E63D8D;
+        color: white;
+        
+    }
+    .sez {
+        margin: 24px 0px 24px;
+        
+    }
     .yes {
         list-style-image: url(./../images/check.svg);
     }
     .no {
         list-style-image: url(./../images/cross.svg);
     }
-    .sez {
-        margin: 16px 0px 16px;
+    .cen {
+        text-align: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    .kolecko {
+        width: 7.5rem;
+        height: 7.5rem;
+        border-radius: 50%;
+        background:  #E63D8D;
+        color: inherit;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 3rem auto 3rem;
+        font-weight: 800;
+        text-align: center;
+        color: white;
     }
 }
