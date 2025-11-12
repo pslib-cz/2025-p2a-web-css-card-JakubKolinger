@@ -45,8 +45,8 @@
         font-weight: 800;
         margin: 16px 0 8px 0;
     }
-    .nadpis-primary {
-        color: var(--primary);
+    .nadpis-secondary {
+        color: var(--secondary);
     }
     .nadpis-zuzova {
         color: #E63D8D;
@@ -56,14 +56,14 @@
         font-size: 1em;
         margin-bottom: 4px;
     }
-    .text--zuzovy {
+    .text-zuzovy {
         color: #931880;
         font-size: 0.8em;
     }
     .text-center {
         text-align: center;
     }
-    .text--big {
+    .text-big {
         font-size: 1.5em;
         font-weight: 800;
     }
@@ -78,11 +78,6 @@
     .green {
         color: var(--primary);
         font-weight: 800;
-    }
-    .big-green {
-        color: var(--primary);
-        font-weight: 800;
-        font-size: 1.5em;
     }
     .btn {
         text-decoration: none;
@@ -101,9 +96,14 @@
         border-radius: 50px;
         
     }
+    .card-spec {
+        padding: 0;
+        list-style-type: none;
+        margin-bottom: 0.1em;
+        list-style-position: inside;
+    }
     .sez {
-        margin: 24px 0px 24px;
-        
+        margin: 24px 0px 24px; 
     }
     .yes {
         list-style-image: url(./../images/check.svg);
