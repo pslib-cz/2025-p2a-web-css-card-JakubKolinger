@@ -87,17 +87,18 @@
     .btn {
         text-decoration: none;
         display: block;
-        border-radius: .5rem;
         padding: 12px 32px;
         text-align: center;
     }
     .btn-primary {
         background-color: var(--primary);
         color: white;
+        border-radius: .5rem;
     }
     .btn--ruzovy {
         background-color: #E63D8D;
         color: white;
+        border-radius: 50px;
         
     }
     .sez {
